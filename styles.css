@@ -1,0 +1,41 @@
+/* . = class  # = id */
+html{
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: purple;
+    
+    
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    width: fit-content;
+    background-color: black;
+    border: 1px solid black;
+    user-select: none;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 94px;
+    
+    
+    
+    
+
+}

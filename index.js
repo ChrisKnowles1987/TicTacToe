@@ -18,6 +18,8 @@ function makeArray(){
     return XOArray;
 }
 function checkWinner(){
+
+    // Simon / Dom:   Why do i have to initialise the XOArray like this?  I tried adding XOArray as an argument in makeArray, then calling makeArray from cellClicked, but XOArray was being set to 'undefined' ?
     XOArray=makeArray()
     
     connect3 = [
